@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - FK Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="css/contact_footer.css" />
+
+    <link rel="stylesheet" href="css/navbar.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <%- include("partials/navbar") %>
+
+    <!-- RESUME SECTION -->
+    <section class="resume-section" id="resume">
+      <div class="section-header">
+        <h1>Resume</h1>
+        <p>View my professional experience and qualifications</p>
+      </div>
+
+      <div class="resume-container">
+        <!-- Resume Card -->
+        <div class="resume-card">
+          <div class="resume-preview-container">
+            <!-- Replace with your resume screenshot/preview image -->
+            <img
+              src="Franklin-Full-Stack-Resume-preview.png"
+              alt="Franklin Kuba Resume Preview"
+              class="resume-preview"
+            />
+            <div class="resume-overlay">
+              <a
+                href="Franklin-Full-Stack-Resume.docx"
+                download
+                class="resume-btn"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume
+              </a>
+              <a
+                href="Franklin-Full-Stack-Resume.docx"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="resume-btn secondary"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"
+                  ></path>
+                  <path d="M15 3h6v6"></path>
+                  <path d="M10 14L21 3"></path>
+                </svg>
+                View Resume
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-content">
+            <h3 class="resume-title">My Professional Resume</h3>
+            <p class="resume-description">
+              View my complete work history, education, and skills. Download a
+              copy for your records or view it online to see my full
+              professional background and technical expertise.
+            </p>
+
+            <div class="resume-meta">
+              <div class="resume-meta-item">
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                Last updated: March 2025
+              </div>
+              <div class="resume-meta-item">
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"
+                  ></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                Format: DOCX
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Info Box -->
+        <div class="info-box">
+          <p>
+            💼 Available for full-time opportunities and freelance projects.
+            Feel free to reach out!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

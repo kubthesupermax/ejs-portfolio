@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certifications - FK Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact_footer.css" />
+
+    <link rel="stylesheet" href="css/certifications.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <%- include("partials/navbar") %>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications-section" id="certifications">
+      <div class="section-header">
+        <h1>Certifications</h1>
+        <p>Professional credentials and achievements</p>
+      </div>
+
+      <div class="certifications-grid">
+        <!-- Certification Card -->
+        <div class="cert-card">
+          <div class="cert-image-container">
+            <!-- Replace this src with your local image path -->
+            <img
+              src="Uplimit-SRE-Fundamentals-with-Google-certification.png"
+              alt="Uplimit SRE Fundamentals with Google certification"
+              class="cert-image"
+            />
+            <div class="cert-overlay">
+              <a
+                href="https://www.credential.net/1b061825-208e-40e1-88e0-7d75e5f5a80b#acc.vcsWuq3P"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="view-credential-btn"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M9 11l3 3L22 4"></path>
+                  <path
+                    d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"
+                  ></path>
+                </svg>
+                View Credential
+              </a>
+            </div>
+          </div>
+
+          <div class="cert-content">
+            <h3 class="cert-title">
+              Uplimit SRE Fundamentals with Google certification
+            </h3>
+            <div class="cert-meta">
+              <span class="cert-issuer">Uplimit</span>
+              <span class="cert-date">November 15, 2024</span>
+            </div>
+            <a
+              href="https://www.credential.net/1b061825-208e-40e1-88e0-7d75e5f5a80b#acc.vcsWuq3P"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cert-link"
+            >
+              View credential
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"
+                ></path>
+                <path d="M15 3h6v6"></path>
+                <path d="M10 14L21 3"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Add more certification cards here as needed -->
+      </div>
+
+      <!-- CONTACT SECTION -->
+      <div class="contact-section">
+        <a href="index.html#contact" class="contact-btn">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

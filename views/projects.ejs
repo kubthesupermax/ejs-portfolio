@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - FK Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/contact_footer.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <%- include("partials/navbar") %>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section">
+      <div class="section-header">
+        <h1>Featured Projects</h1>
+        <p>A showcase of my recent work and technical experiments</p>
+      </div>
+
+      <div class="projects-gallery">
+        <!-- Groq AI Chatbot -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1589254065878-42c9da997008?q=80&w=2070&auto=format&fit=crop"
+            alt="Groq AI Chatbot"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">Groq AI Chatbot</h3>
+            <p class="project-description">
+              Interactive chatbot that uses Groq API to generate responses to
+              user queries. Built with Python, Fastapi, React , Tailwind CSS and
+              Groq.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Tailwind CSS</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://groq-chatbot-frontend.onrender.com/"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com/kubthesupermax/groq-chatbot/tree/main"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crypto Chart App -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=2070&auto=format&fit=crop"
+            alt="Crypto Chart App"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">Crypto Chart App</h3>
+            <p class="project-description">
+              Real-time cryptocurrency tracking dashboard with interactive
+              charts, and price alerts. Built with React and recharts.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">recharts</span>
+              <span class="tech-tag">API</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://crypto-dashboard-murex-delta.vercel.app/"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com/kubthesupermax/crypto-dashboard"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shopping Cart with Stripe -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=2089&auto=format&fit=crop"
+            alt="Shopping Cart"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">E-Commerce Cart</h3>
+            <p class="project-description">
+              Full-stack e-commerce platform with secure payment processing via
+              Stripe integration. Features include cart management and order
+              tracking.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Stripe</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Multi-User Chat Application -->
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2070&auto=format&fit=crop"
+            alt="Chat Application"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">Real-Time Chat App</h3>
+            <p class="project-description">
+              Multi-user chat platform with real-time messaging, room
+              management, and dynamic user customization powered by WebSockets.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SocketIO</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2070&auto=format&fit=crop"
+            alt="Chat Application"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">Real-Time Chat App</h3>
+            <p class="project-description">
+              Multi-user chat platform with real-time messaging, room
+              management, and dynamic user customization powered by WebSockets.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SocketIO</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2070&auto=format&fit=crop"
+            alt="Chat Application"
+            class="project-image"
+          />
+          <div class="project-overlay">
+            <h3 class="project-title">Real-Time Chat App</h3>
+            <p class="project-description">
+              Multi-user chat platform with real-time messaging, room
+              management, and dynamic user customization powered by WebSockets.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SocketIO</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                class="project-btn btn-primary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Demo
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                class="project-btn btn-secondary"
+              >
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  ></path>
+                </svg>
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%- include("partials/footer") %>
+
+    <script>
+      // Mobile Menu Toggle
+      const menuToggle = document.getElementById("menuToggle");
+      const navMenu = document.getElementById("navMenu");
+      const menuOverlay = document.getElementById("menuOverlay");
+      const navLinks = document.querySelectorAll(".navbar ul li a");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        menuOverlay.classList.toggle("active");
+        document.body.style.overflow = navMenu.classList.contains("active")
+          ? "hidden"
+          : "";
+      });
+
+      menuOverlay.addEventListener("click", () => {
+        menuToggle.classList.remove("active");
+        navMenu.classList.remove("active");
+        menuOverlay.classList.remove("active");
+        document.body.style.overflow = "";
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+          menuOverlay.classList.remove("active");
+          document.body.style.overflow = "";
+        });
+      });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 768) {
+          menuToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+          menuOverlay.classList.remove("active");
+          document.body.style.overflow = "";
+        }
+      });
+    </script>
+  </body>
+</html>
