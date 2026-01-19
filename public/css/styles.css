@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
     sans-serif;
   background: #020617;
   color: #fff;
@@ -39,7 +43,8 @@ section {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at top left,
       rgba(124, 124, 255, 0.15),
       transparent 50%
@@ -216,7 +221,9 @@ section {
   justify-content: center;
   flex-shrink: 0;
   cursor: pointer;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .skill-icon img {
@@ -774,6 +781,7 @@ section {
   .planet-3d {
     min-height: 500px;
     margin: 3rem 0;
+    display: none;
   }
 
   #planetCanvas {
@@ -918,6 +926,8 @@ section {
   .planet-3d {
     min-height: 400px;
     margin: 2rem 0;
+
+    display: none;
   }
 
   #planetCanvas {
@@ -1104,6 +1114,8 @@ section {
     margin: 3rem 0;
     padding: 0;
     width: 100%;
+
+    display: none;
   }
 
   #planetCanvas {
@@ -1318,6 +1330,8 @@ section {
     padding: 0;
     width: 100vw;
     overflow: hidden;
+
+    display: none;
   }
 
   #planetCanvas {
@@ -1485,6 +1499,8 @@ section {
     padding: 0;
     width: 100vw;
     overflow: hidden;
+
+    display: none;
   }
 
   #planetCanvas {
@@ -1595,6 +1611,8 @@ section {
   /* SMALLEST SCREENS PLANET FIX */
   .planet-3d {
     min-height: 350px;
+
+    display: none;
   }
 
   #planetCanvas {
